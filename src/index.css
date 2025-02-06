@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #2c2c2c; /* Darker background for contrast */
+  background-color: #ade1e5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +67,10 @@ body {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .page-left, .page-right {
@@ -72,6 +78,10 @@ body {
   background-image: url('./paper.png'); /* Subtle paper texture */
   background-size: cover;
   box-shadow: inset 3px 0px 15px rgba(0, 0, 0, 0.36);
+}
+
+.page-2, .page-3 {
+  cursor: pointer;
 }
 
 .page-left {
