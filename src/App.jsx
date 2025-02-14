@@ -8,6 +8,31 @@ import HTMLFlipBook from "react-pageflip";
 
 function App() {
 
+
+  // const [w, setW] = useState(window.innerWidth);
+  // const [h, setH] = useState(window.innerHeight);
+
+  // useEffect(() => {
+  //   const updateDimensions = () => {
+  //     setW(window.innerWidth);
+  //     setH(window.innerHeight);
+  //   };
+  
+  //   window.addEventListener("resize", updateDimensions);
+  
+  //   return () => {
+  //     window.removeEventListener("resize", updateDimensions);
+  //   };
+  // }, [w, h]);
+  
+  // useEffect(() => {
+  //   console.log("Updated window dimensions:", w, h);
+  // }, [w, h]);
+
+
+
+
+
   return (
     
       <section className="about-page">
